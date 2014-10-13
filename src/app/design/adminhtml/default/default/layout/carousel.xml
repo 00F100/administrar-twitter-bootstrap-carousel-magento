@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<default>
+	</default>
+    <carousel_adminhtml_carousel_index>
+        <reference name="content">
+            <block type="carousel/adminhtml_carousel" name="carousel" />
+        </reference>
+    </carousel_adminhtml_carousel_index>
+</layout>

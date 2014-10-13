@@ -78,7 +78,7 @@ public function saveAction() {
 		        }
 	        
 		        //this way the name is saved in DB
-		        $basepath = Mage::getBaseDir('media') . DS . 'twitter-bootstrap' . DS . 'carousel' . DS ;
+		        $basepath = Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA) . 'twitter-bootstrap' . DS . 'carousel' . DS ;
 				// $basepath='yoururl/magentothem/banner7/';
 		        //$basepath=str_replace("index.php/","",$basepath);
 				$_filename = str_replace(" ","_",$_FILES['image']['name']);

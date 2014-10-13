@@ -49,11 +49,6 @@
                                 <sort_order>0</sort_order>
                                 <action>carousel/adminhtml_carousel</action>
                             </items>
-                            <configuration>
-                                <title>Configurações</title>
-                                <sort_order>1</sort_order>
-                                <action>adminhtml/system_config/edit/section/carousel</action>
-                            </configuration>
                         </children>
                     </carousel>
                 </children>
