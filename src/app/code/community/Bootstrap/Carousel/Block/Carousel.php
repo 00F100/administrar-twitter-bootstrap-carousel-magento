@@ -26,7 +26,7 @@ class Bootstrap_Carousel_Block_Carousel extends Mage_Core_Block_Template
 		   ->where('status=?',1);
 
         if($categoria_id){
-           $select->where('categoria_id="?"',$categoria_id);
+           $select->where('categoria_id=?',$categoria_id);
         }
 
 		$slide = $read->fetchAll($select);	
