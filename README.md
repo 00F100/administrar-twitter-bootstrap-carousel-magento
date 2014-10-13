@@ -11,13 +11,16 @@ UTILIZAR OS BANNERS
 ===================
 
 > Bloco:
+
 > < block type="carousel/carousel" name="[NOME]" alias="[ALIAS]" template="[PATH]" />
 
 > PHP:
+
 > <?php echo $this->getLayout()->createBlock('carousel/carousel')->setTemplate('[PATH]')->toHtml(); ?>
 
 SELECIONAR CATEGORIA
 ====================
 
-> Ao chamar o método: 
+> Ao chamar o método:
+
 > $carousel = $this->getDataCarousel('banner1');
