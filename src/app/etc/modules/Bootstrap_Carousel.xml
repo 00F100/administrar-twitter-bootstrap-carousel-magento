@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Bootstrap_Carousel>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Bootstrap_Carousel>
+    </modules>
+</config>
