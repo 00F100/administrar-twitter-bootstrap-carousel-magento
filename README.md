@@ -1,14 +1,13 @@
 Twitter Bootstrap para Magento
 =========================
 
-CONFIGURAÇÃO
-============
+Gerencie seus banners no menu do painel administrativo do magento.
+
+## CONFIGURAÇÃO
 
 > Copie o conteudo em /src/ para o diretório raiz do Magento.
-> Gerencie seus banners no menu do painel administrativo do magento.
 
-UTILIZAR OS BANNERS
-===================
+## UTILIZAR OS BANNERS
 
 > Bloco:
 
@@ -18,8 +17,7 @@ UTILIZAR OS BANNERS
 
 > <?php echo $this->getLayout()->createBlock('carousel/carousel')->setTemplate('[PATH]')->toHtml(); ?>
 
-SELECIONAR CATEGORIA
-====================
+## SELECIONAR CATEGORIA
 
 > Ao chamar o método:
 
