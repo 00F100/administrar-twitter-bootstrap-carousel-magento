@@ -12,7 +12,7 @@ UTILIZAR OS BANNERS
 
 > Bloco:
 
-> < block type="carousel/carousel" name="[NOME]" alias="[ALIAS]" template="[PATH]" />
+> <block type="carousel/carousel" name="[NOME]" alias="[ALIAS]" template="[PATH]" />
 
 > PHP:
 
