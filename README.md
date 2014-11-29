@@ -1,4 +1,4 @@
-Twitter Bootstrap para Magento
+Twitter Bootstrap Carousel para Magento
 =========================
 
 Gerencie seus banners no menu do painel administrativo do magento.
